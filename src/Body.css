@@ -116,5 +116,6 @@ button>small{
     .body_card{
         height: fit-content;
         width: 300px;
+        max-height: 300px;
     }
 }
