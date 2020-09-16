@@ -4,6 +4,10 @@
 
 
 
+**Deployment Site***
+
+https://airbnb-clone-2bf5e.web.app/
+
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
