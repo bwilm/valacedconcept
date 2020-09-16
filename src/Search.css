@@ -1,5 +1,6 @@
 .search{
     display: flex;
+    flex-direction: column;
     justify-items: center;
 }
 .search_container{
@@ -8,10 +9,16 @@
     height: 40px;
     padding: 15px;
     background-color: white;
-    width: 99%;
+    width: 80%;
     border-radius: 999px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search_date_picker{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    z-index: 2;
 }
 .search_column{
     display: flex;
@@ -41,6 +48,11 @@
 
 }
 
+.react-datepicker__today-button {
+    background: #ff385d;
+    border-radius: 15px;
+}
+
 .search_icon{
     color: white !important;
     cursor: pointer;
@@ -49,8 +61,11 @@
 }
 
 
-@media(max-width: 376px){
+@media(max-width: 1120px){
 
+    .search{
+        justify-content: center;
+    }
 
     .search_column:nth-child(1){
         border-right: none;
@@ -68,10 +83,5 @@
     .search_column:nth-child(1)>small{
         display: none;
     }
-    .search_container{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
 
 }
